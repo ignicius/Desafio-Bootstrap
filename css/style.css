@@ -7,3 +7,8 @@
 body{
   background-color: silver,black,violet;
 }
+
+.letracolor{
+    color: white;
+    text-decoration: dotted;
+}
