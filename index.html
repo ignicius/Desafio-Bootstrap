@@ -11,8 +11,71 @@
 <body>
     <header>
         <nav>
-            <a href="./HTML/pag1.html">Dibujos</a>
+            <!-- As a link -->
+            <nav class="navbar bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/HTML/pag1.html">Dibujos</a>
+                </div>
+            </nav>
+            
+            <!-- As a heading -->
+            <nav class="navbar bg-light">
+                <div class="container-fluid">
+                    <span class="navbar-brand mb-0 h1">Navbar</span>
+                </div>
+            </nav>
         </nav>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" p-4>
+    Dibujos abstractos
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">U sure?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Por acá no se llega, aunque me gustaria linkear pag1.html haciendo click en "Go >"
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Go ></button>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+        <div class="container">
+        
+            <div class="row">
+                <div class="col-12 p-4 bg-secondary text-light">
+                    <h2 class="text-center">BOOTSTRAP GRID</h2>
+                </div>
+            </div class="row">
+            <div class="row">
+            <div class="col-lg-4 border p-4">
+                <h2>Columna 1</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti magni facilis et placeat ipsa molestiae sunt quae dolorem distinctio!</p>
+            </div>
+            <div class="col-lg-4 p-4 border bg-info">
+                <h2>Columna 2</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti magni facilis et placeat ipsa molestiae sunt quae dolorem distinctio!</p>
+            </div>
+            <div class="col-lg-4 border p-4">
+                <h2>Columna 3</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti magni facilis et placeat ipsa molestiae sunt quae dolorem distinctio!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 p-4 bg-primary text-light">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nemo reiciendis quidem ut alias quam libero maiores fugiat eaque quae aut, ratione sit soluta optio amet molestiae, ullam doloremque quaerat iusto? Perferendis vitae, dolores libero ab a earum architecto excepturi?</p>
+            </div>
     </header>
+    <script src="http://unpkg.com/@popperjs/core@2"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
